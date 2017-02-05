@@ -11,7 +11,7 @@ def classify(features_train, labels_train):
     clf = GaussianNB()
     clf.fit(features_train, labels_train)
 
-    clf.predict(features_test)
-    print("Accuracy is: " + clf.score())
+    # clf.predict(features_test) Test prediction with test data, Test data shouldnt be included in features_train to give accurate results
+   # print("Accuracy is: " + clf.score(features_test, labels_test)) Gives accuracy with test data and its labels
 
     return clf
