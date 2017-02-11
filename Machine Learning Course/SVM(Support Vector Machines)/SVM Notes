@@ -2,3 +2,15 @@ SVM is another alogrithm to help solve Supervised Classification Problems.
 
 it stands for support vecotr machines
 
+What SVMs do is find a seperating line called a hyper plane between data of 2 classes. takes data inputs and gives a line that seperates that data.
+
+svm gives the line that maximizes the distance to the nearest points of either of the class (Margin). so that it can be in between both.
+it makes it more robust
+
+
+SVMs makes sure the classifications of each data point is correct first, then it wil maximize the margin.
+If there is no possible decision surface, what should svm do. If there is an outlier that makes a decision surface imposible, that outlier will then be igonred by the algorithm
+
+SVMs ignores Outliers. It mediates the ability to make a right decison surface while being robust to outliers.
+
+
