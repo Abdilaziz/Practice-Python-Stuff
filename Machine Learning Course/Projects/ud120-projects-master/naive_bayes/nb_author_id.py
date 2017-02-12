@@ -40,7 +40,9 @@ accuracy =  clf.score(features_test, labels_test)
 
 print("Accuracy is: ") 
 print(accuracy)
-
+# another method for accuacy
+# from sklearn.metrics import accuracy_score
+# acc = accuracy_score(pred, labels_test)
 
 
 
